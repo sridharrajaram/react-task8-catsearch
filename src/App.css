@@ -1,0 +1,36 @@
+.container-fluid{
+    margin: 0;
+    padding:0;
+}
+
+.home-banner {
+    position: relative;
+    width: 100%;
+    min-height: 450px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    width:153.6px;
+    height:153.6px;
+}
+
+.home-banner-content-container {
+    position: absolute;
+    width: 100%;
+    top: 10%;
+}
+
+.home-banner-content {
+    color: white;
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.row1{
+    display:flex;
+    flex-flow: wrap;
+}
